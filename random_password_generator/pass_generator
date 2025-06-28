@@ -1,0 +1,16 @@
+import random 
+import string
+
+letters = string.ascii_letters
+digits = string.digits
+symbols = string.punctuation
+all_symbols = letters + digits + symbols
+
+def password_generator(n, quantity):
+    if n < 8:
+        return 'No less than 8 characters'
+    return [''.join(random.choice(all_symbols) for _ in range(n)) for _ in range(quantity)]
+
+n = int(input('Password length: '))
+quantity = int(input('Quantity: '))
+print(password_generator(n, quantity))
