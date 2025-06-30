@@ -1,6 +1,0 @@
-2025-01-28 23:34:29,986 - INFO - Succesful division 10/2 = 5.0
-202025-01-28 23:35:17,478 - INFO - Succesful division 10/2 = 5.0
-2025-01-28 23:35:17,478 - ERROR - division by zero
-2025-01-28 23:35:17,478 - CRITICAL - unsupported operand type(s) for /: 'int' and 'str'
-25-01-28 23:34:29,986 - ERROR - Error: division by zero
-2025-01-28 23:34:29,987 - CRITICAL - Another error: unsupported operand type(s) for /: 'int' and 'str'
